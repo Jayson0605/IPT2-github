@@ -4,6 +4,7 @@ public class calcu {
         sub(10, 5);
         multiply(10, 5);
         division(4, 4);
+        modulus(1, 1);
     }
 
     public static void add(int a, int b){
@@ -24,5 +25,10 @@ public class calcu {
     public static void division(int a, int b){
         int res = a / b;
         System.out.println("The quotient is: " +res);
+    }
+
+    public static void modulus(int a, int b){
+        int res = a % b;
+        System.out.println("The modulus is: " +res);
     }
 }
